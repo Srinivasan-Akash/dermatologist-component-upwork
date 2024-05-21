@@ -507,6 +507,7 @@ height: fit-content !important;
 @media (max-width: 600px) {
     .image-area {
         margin-left: 15% !important;
+        margin-bottom: -5.5em !important;
     }
 }
 
