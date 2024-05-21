@@ -105,13 +105,13 @@
   color: #000000;
   font-size: 16px;
   margin: 0;
-  margin-bottom: 10px;
+  margin-bottom: 10px; 
 
-  overflow-y: scroll;
+  /* overflow-y: scroll;
   display: -webkit-box;
-  -webkit-line-clamp: 4; /* number of lines to show */
+  -webkit-line-clamp: 4; 
   line-clamp: 4;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: vertical; */
 }
 
 #face-map .area-data.is-active {
