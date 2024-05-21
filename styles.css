@@ -43,6 +43,7 @@
 }
 #face-map, * {
     box-sizing: border-box;
+    
     /* margin: auto; */
 }
 #face-map {
@@ -105,10 +106,7 @@
     margin: 0;
     margin-bottom: 10px;
 }
-#face-map .area-data {
-    /* display: none; */
-    /* opacity: 0; */
-}
+
 #face-map .area-data.is-active {
     display: block;
     animation: slideUp 1s ease forwards;
@@ -443,20 +441,28 @@
 }
 
 @media (max-width: 767px){
+
+    .page {
+        height: fit-content !important;
+    }
+    .image-area {
+        margin: auto !important;
+        margin-left: 20% !important;
+    }
     #face-map {
         width: 100%;
         /* max-width: 500px; */
-        padding: 0px 0px 0px 20px;
+        /* padding: 0px 0px 0px 20px; */
         flex-direction: column;
     }
     #face-map .main-area {
-        flex-direction: column;
+        /* flex-direction: column; */
         gap: 60px;
         overflow: none;
         padding: 0em;
         overflow: hidden;
 height: fit-content !important;
-        border: none;
+        /* border: none; */
     }
     .page {
         flex-direction: column;
@@ -464,13 +470,8 @@ height: fit-content !important;
         justify-content: center;
     }
 
-    .tabs {
-        display: none;
-    }
-    
 
-
-    #face-map .data-area {
+    #face-map .area-data {
         min-height: 280px;
         flex: unset !important;
     }
@@ -481,7 +482,7 @@ height: fit-content !important;
         align-items: center;
         justify-content: center;
     }
-    #face-map .data-area {
+    #face-map .area-data {
         padding: 0px;
         left: 0;
         width: 100%;
@@ -490,15 +491,50 @@ height: fit-content !important;
         align-items: center;
     }
 
-    #face-map .data-area .area-details {
+    #face-map .area-data .area-details {
         width: 400px;
     }
 }
 
-@media (max-width: 515px){
-    .data-area {
-        margin-top: 1em;
-        align-items: flex-start !important;
-        justify-content: flex-start !important;
+@media (max-width: 540px) {
+    .tabs .tab:first-child {
+        width: 60% !important;
+    }
+    .tabs .tab:last-child {
+        width: 40% !important;
+    }
+}
+@media (max-width: 600px) {
+    .image-area {
+        margin-left: 15% !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .image-area {
+        margin-left: 8% !important;
+    }
+}
+
+@media (max-width: 412px) {
+    .tabs .tab:first-child {
+        width: 65% !important;
+        font-size: .9rem;
+    }
+    .tabs .tab:last-child {
+        width: 35% !important;
+        font-size: .9rem;
+    }
+}
+
+
+@media (max-width: 446px){
+
+    .area-data {
+        width: 100% !important;
+    }
+
+    .area-data h2, .area-data p {
+        width: 100% !important;
     }
 }
