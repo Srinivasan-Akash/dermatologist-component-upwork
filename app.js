@@ -143,9 +143,6 @@ var anti_aging_data = {
 
 };
 
-function truncateText(text, maxLines) {  
-    return text.substring(0, 300) + "....";
-  }
 
 // Your existing jQuery code
 jQuery(($) => {
@@ -192,8 +189,7 @@ jQuery(($) => {
         $("#anti-aging .instructions").hide();
         $("#anti-aging .area-data").removeClass("is-active");
 
-        document.querySelector("#anti-aging .area-details").innerText = truncateText(desc, 3);
-        console.log(truncateText(desc, 3))
+        document.querySelector("#anti-aging .area-details").innerText = (desc);
         document.querySelector("#anti-aging .area-title").innerText = title;
 
         setTimeout(() => {
@@ -229,7 +225,7 @@ jQuery(($) => {
         $("#dermal-filler .instructions").hide();
         $("#dermal-filler .area-data").removeClass("is-active");
 
-        document.querySelector("#dermal-filler .area-details").innerText = truncateText(desc, 2);
+        document.querySelector("#dermal-filler .area-details").innerText = (desc);
         console.log(desc)
 
         document.querySelector("#dermal-filler .area-title").innerText = title;
