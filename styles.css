@@ -7,11 +7,11 @@
 }
 
 /* CODE ADDED BY WORDPRESS */
-.container {
+/* .container {
   max-width: 1080px;
   width: 80%;
   margin: auto;
-}
+} */
 
 .tabs {
   width: 100%;
@@ -112,22 +112,6 @@
   -webkit-line-clamp: 4; /* number of lines to show */
   line-clamp: 4;
   -webkit-box-orient: vertical;
-}
-
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #000;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
 }
 
 #face-map .area-data.is-active {
@@ -456,7 +440,7 @@
   background-color: #000;
 }
 
-@media screen and (max-width: 1126px) {
+@media screen and (max-width: 1044px) {
   .page {
     flex-direction: column;
   }
