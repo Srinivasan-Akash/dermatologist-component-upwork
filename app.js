@@ -13,7 +13,7 @@ const dermal_data = {
     },
     "area5": {
         "title": "Cheeks",
-        "description": "Aging, genetics and lifestyle choices can lead to a loss of firmness and definition in the cheeks which can contribute to a flattened or sagging appearance of the cheek area. Addressing these concerns involve restoring volume to lift and contour of the cheek area."
+        "description": "Aging, genetics and lifestyle choices can lead to a loss of firmness and definition in the cheeks which can contribute to a flattened or sagging appearance of the cheek area. Addressing these concerns involve restoring volume to lift and contour of the cheek area. Aging, genetics and lifestyle choices can lead to a loss of firmness and definition in the cheeks which can contribute to a flattened or sagging appearance of the cheek area."
     },
     "area6": {
         "title": "Ear Lobes",
@@ -33,7 +33,7 @@ const dermal_data = {
     },
     "area10": {
         "title": "Accordian Lines",
-        "description": "Accordion lines are lines that develop on either side of the mouth spanning to the lower cheek when the skin becomes thinner and weaker. They are a common sign of aging created through repetitive movement through smiling which cause the lower cheek skin to bunch and crease."
+        "description": "Accordion lines are lines that develop on either side of the mouth spanning to the lower cheek when the skin becomes thinner and weaker. They are a common sign of aging created through repetitive movement through smiling which cause the lower cheek skin to bunch and crease. Accordion lines are lines that develop on either side of the mouth spanning to the lower cheek when the skin becomes thinner and weaker."
     },
     "area11": {
         "title": "Buccal Hollows",
@@ -86,7 +86,7 @@ var anti_aging_data = {
     },
     "part4": {
         "title": "Brow Lift",
-        "description": "Brow drooping refers to the descent of the brows which can lead to facial asymmetry. This can occur due to repetitive facial expressions, like squinting or furrowing of the brows, over time, as the skin around this area is prone to fold and wrinkle. Aging also contributes to brow drooping."
+        "description": "Brow drooping refers to the descent of the brows which can lead to facial asymmetry. This can occur due to repetitive facial expressions, like squinting or furrowing of the brows, over time, as the skin around this area is prone to fold and wrinkle. Aging also contributes to brow drooping. Brow drooping refers to the descent of the brows which can lead to facial asymmetry. This can occur due to repetitive facial expressions, like squinting or furrowing of the brows"
     },
     "part5": {
         "title": "Crows Feet",
@@ -94,7 +94,7 @@ var anti_aging_data = {
     },
     "part6": {
         "title": "Tarsal Plate",
-        "description": "The tarsal plate is a firm, fibrous structure providing support to the eyelids and maintaining their shape. Some individuals may experience skin bunching in this area when they smile, this can be reduced by relaxing these muscles."
+        "description": "The tarsal plate is a firm, fibrous structure providing support to the eyelids and maintaining their shape. Some individuals may experience skin bunching in this area when they smile, this can be reduced by relaxing these muscles.  fibrous structure providing support to the eyelids and maintaining their shape. Some individuals may experience skin bunching in this area when they smile, this can be reduced by relaxing these muscles."
     },
     "part7": {
         "title": "Bunny Scrunch",
@@ -102,11 +102,11 @@ var anti_aging_data = {
     },
     "part8": {
         "title": "Chin",
-        "description": "The chin muscle gets stronger as individuals age and it pulls up towards the nose. This can result in a mental crease, dimpling, and loss of the chin shape as it shortens. To treat this area individuals may opt to reduce muscle movement in this area. This can aid in reducing the depth of these wrinkles, relaxing the muscle down to prevent them from worsening over time. The vertical lines or folds that develop on the chin over time are often caused by a combination of factors including aging, repetitive facial expressions, sun exposure, and genetics."
+        "description": "The chin muscle gets stronger as individuals age and it pulls up towards the nose. This can result in a mental crease, dimpling, and loss of the chin shape as it shortens. To treat this area individuals may opt to reduce muscle movement in this area. This can aid in reducing the depth of these wrinkles, relaxing the muscle down to prevent them from worsening over time. "
     },
     "part9": {
         "title": "Accordion lines",
-        "description": "Accordion lines can develop on either side of the mouth when the skin becomes thinner and weaker. They are a common side of aging created through making facial expressions that cause the lower cheek skin to bunch and crease."
+        "description": "Accordion lines can develop on either side of the mouth when the skin becomes thinner and weaker. They are a common side of aging created through making facial expressions that cause the lower cheek skin to bunch and crease. They are a common side of aging created through making facial expressions that cause the lower cheek skin to bunch and crease." 
     },
     "part10": {
         "title": "Masseters",
@@ -114,15 +114,15 @@ var anti_aging_data = {
     },
     "part11": {
         "title": "DAO",
-        "description": "DAO, or depressor anguli oris, is a muscle located at the corners of the mouth. When overactive, this muscle can contribute to the formation of downturned mouth corners. Through relaxing this muscle the corners on the mouth can begin to lift reducing the appearance of a downturned mouth."
+        "description": "DAO, or depressor anguli oris, is a muscle located at the corners of the mouth. When overactive, this muscle can contribute to the formation of downturned mouth corners. Through relaxing this muscle the corners on the mouth can begin to lift reducing the appearance of a downturned mouth. DAO, or depressor anguli oris, is a muscle located at the corners of the mouth."
     },
     "part12": {
         "title": "Trapezius",
-        "description": "The trapezius muscle is a large, triangular-shaped muscle located in the upper back and neck region. It plays a key role in various movements of the head, neck, and shoulders. Relaxing the trapezius can contribute to the slimming of the muscle due to inhibiting over-activity."
+        "description": "The trapezius muscle is a large, triangular-shaped muscle located in the upper back and neck region. It plays a key role in various movements of the head, neck, and shoulders. Relaxing the trapezius can contribute to the slimming of the muscle due to inhibiting over-activity. The trapezius muscle is a large, triangular-shaped muscle located in the upper back and neck region. "
     },
     "part13": {
         "title": "Platysmal bands",
-        "description": "Platysmal bands are vertical muscle bands located in the front of the neck, extending from the jawline to the collarbone. Aging and overactivity can contribute to the prominence of how these neck bands appear. Relaxing this muscle will smooth the prominence of the neck bands over time."
+        "description": "Platysmal bands are vertical muscle bands located in the front of the neck, extending from the jawline to the collarbone. Aging and overactivity can contribute to the prominence of how these neck bands appear. Relaxing this muscle will smooth the prominence of the neck bands over time. Platysmal bands are vertical muscle bands located in the front of the neck,"
     },
     "part14": {
         "title": "Lip Flip",

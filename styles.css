@@ -51,7 +51,7 @@
   width: 100%;
   margin: 0 auto;
   font-family: inherit;
-  border: 1px solid #f1f1f1;
+  border: none;
   height: fit-content;
 }
 #face-map .main-area {
@@ -91,6 +91,7 @@
 #face-map .area-data {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   justify-content: center;
   margin: 34px;
 }
@@ -103,7 +104,11 @@
 }
 
 .area-data {
-  min-height: 18em;
+  min-height: 25em;
+  background: red;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 #face-map .area-data .area-title {
@@ -125,8 +130,12 @@
 }
 
 #face-map .area-data.is-active {
-  display: block;
+  display: flex;
   animation: slideUp 1s ease forwards;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
 }
 @keyframes slideUp {
   0% {
